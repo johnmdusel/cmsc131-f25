@@ -66,3 +66,40 @@ cmsc131-f15  # repository name
 └── .vscode  # IDE settings
     └── settings.json
 ```
+
+
+## Saving your work to GitHub
+
+When you create or change any Java files, be sure to create a "commit" 
+on your development machine and then "push" that commit up to GitHub.
+
+**Important: The GitHub repo is the first-class entity.**
+You must keep it up-to-date!
+
+Step-by-step:
+
+### (Before first commit) Tntroduce yourself to Git and sync your local repo.
+	
+i. View > Terminal to open terminal in VS code. If you don't see a prompt like `ubuntu@f780c5a3a9be:/workspaces/cmsc131-f25$` then use the + button to open a new `bash` terminal.
+
+ii. Enter `git config user.name "Your Name"`
+
+iii. Enter `git config user.email "your@email"`
+
+iv. Enter ```git branch -u origin/main main```
+
+This is a one-and-done operation.
+
+### Commit your work and push up to GitHub
+	
+1. Stage your changes
+
+2. Write message and commit your changes
+
+3. Push your changes to GitHub
+
+### If you change development machines, pull down your work from GitHub
+
+1. Fetch from GitHub
+
+2. Pull down latest changes
